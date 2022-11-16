@@ -63,6 +63,6 @@
     <integer name="config_sysBatteryTempMultiplier">10</integer>
 
      <!-- Whether to show Refresh Rate Tile or Not (Only For High Refresh Rate Devices) -->
-     <bool name="config_showRefreshRateTile">false</bool>
+     <bool name="config_showRefreshRateTile">true</bool>
 
 </resources>
