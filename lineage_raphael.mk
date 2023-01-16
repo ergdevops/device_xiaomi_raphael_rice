@@ -29,18 +29,18 @@ RICE_CHIPSET := msmnile
 # maintainer flag (one word only/no spacing)
 # friendly tip: builders can use init_xxx.cpp as workaround for spacing
 # e.g. property_override("ro.rice.maintainer", "get riced");
-RICE_MAINTAINER := ΛＲＣＨＩＴΣＣＴツ(@SageOfD6Path)
+RICE_MAINTAINER := ergdev
 
 # package type flag (one word only/no spacing)
 # this will reflect on build/display version, a firmware package/zip name 
 # e.g. riceDroid-7.0-COMMUNITY-device-AOSP.zip - AOSP is the default package type, WITH_GMS will override the package type to PIXEL
-RICE_PACKAGE_TYPE := AOSP
+RICE_PACKAGE_TYPE := gapps
 
 # Sushi Bootanimation (only 720/1080p/1440 supported. if not defined, bootanimation is google bootanimation)
 SUSHI_BOOTANIMATION := 1080
 
 # Graphene Camera
-TARGET_BUILD_GRAPHENEOS_CAMERA := false
+TARGET_BUILD_GRAPHENEOS_CAMERA := true
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
@@ -70,3 +70,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+RICE_OFFICIAL := false
+
+# AudioFx
+TARGET_EXCLUDES_AUDIOFX := true
+
+# QuickTap
+TARGET_SUPPORTS_QUICK_TAP := true
