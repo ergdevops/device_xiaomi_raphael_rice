@@ -40,7 +40,7 @@ RICE_PACKAGE_TYPE := gapps
 SUSHI_BOOTANIMATION := 1080
 
 # Graphene Camera
-#TARGET_BUILD_GRAPHENEOS_CAMERA := true
+TARGET_BUILD_GRAPHENEOS_CAMERA := true
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
