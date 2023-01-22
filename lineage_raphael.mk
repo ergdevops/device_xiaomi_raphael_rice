@@ -40,7 +40,7 @@ RICE_PACKAGE_TYPE := gapps
 SUSHI_BOOTANIMATION := 1080
 
 # Graphene Camera
-TARGET_BUILD_GRAPHENEOS_CAMERA := true
+#TARGET_BUILD_GRAPHENEOS_CAMERA := true
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
@@ -56,7 +56,7 @@ TARGET_USE_PIXEL_FINGERPRINT := true
 
 # GMS build flags, if none were defined the package build type will be AOSP
 WITH_GMS := true
-TARGET_OPTOUT_GOOGLE_TELEPHONY := true
+#TARGET_OPTOUT_GOOGLE_TELEPHONY := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_raphael
